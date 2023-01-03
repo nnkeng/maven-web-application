@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.mt:maven-web-application:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.servlet:javax.servlet-api:jar -> duplicate declaration of version 3.1.0 @ line 87, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------< com.mt:maven-web-application >--------------------
+[INFO] Building maven-web-application 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ maven-web-application ---
+[INFO] Deleting /home/ec2-user/range/java-projects/maven-web-application/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ maven-web-application ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ec2-user/range/java-projects/maven-web-application/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ maven-web-application ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/ec2-user/range/java-projects/maven-web-application/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ maven-web-application ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ec2-user/range/java-projects/maven-web-application/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ maven-web-application ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ maven-web-application ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ maven-web-application ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [maven-web-application] in [/home/ec2-user/range/java-projects/maven-web-application/target/maven-web-app]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ec2-user/range/java-projects/maven-web-application/src/main/webapp]
+[INFO] Webapp assembled in [48 msecs]
+[INFO] Building war: /home/ec2-user/range/java-projects/maven-web-application/target/maven-web-app.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ maven-web-application ---
+[INFO] Installing /home/ec2-user/range/java-projects/maven-web-application/target/maven-web-app.war to /home/ec2-user/nfesta/com/mt/maven-web-application/0.0.1-SNAPSHOT/maven-web-application-0.0.1-SNAPSHOT.war
+[INFO] Installing /home/ec2-user/range/java-projects/maven-web-application/pom.xml to /home/ec2-user/nfesta/com/mt/maven-web-application/0.0.1-SNAPSHOT/maven-web-application-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.500 s
+[INFO] Finished at: 2022-12-31T18:10:32Z
+[INFO] ------------------------------------------------------------------------
