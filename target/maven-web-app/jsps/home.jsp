@@ -12,8 +12,8 @@
 <h1 align="center">Welcome to Nfesta Technologies.</h1>
 <h2 align="center"> We are supporting the Ebay Black Friday Project.
 	Nfesta Technologies is a software development company. 
-	Class26 will run from October 2, 2021.
-	The shout of the King Jesus is in our midst. HE IS OUR SUCCESS ACCESS KEY</h2>
+	new class of devops Engineer will run from April 15, 2023.
+	Theere is a brighter light at the end ot the tunnel. The Lord's guide IS OUR SUCCESS ACCESS KEY</h2>
 <hr>
 <div style="text-align: center;">
 	<span>
@@ -25,14 +25,14 @@
 		+1 240 636 8212,
 		festusnkengdevops@gmail.com
 		<br>
-		<a href="mailto:mylandmarktech@gmail.com">Mail to Landmark Technologies</a>
+		<a href="mailto:festusnkengdevops@gmail.com">Mail to Landmark Technologies</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Landmark Technologies - Consultant, Training, Development Center.</p>
+<p align=center>Nfesta Technologies - Consultant, Training, Development Center.</p>
 <p align=center><small>Copyrights 2019 by <a href="http://mynfesta.tech/">Nfesta Technologies</a> </small></p>
 
 </body>
