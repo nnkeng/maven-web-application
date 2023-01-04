@@ -25,7 +25,7 @@
 		+1 240 636 8212,
 		festusnkengdevops@gmail.com
 		<br>
-		<a href="mailto:festusnkengdevops@gmail.com">Mail to Landmark Technologies</a>
+		<a href="mailto:festusnkengdevops@gmail.com">Mail to Nfesta Technologies</a>
 	</span>
 </div>
 <hr>
