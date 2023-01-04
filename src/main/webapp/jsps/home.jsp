@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>MylandmarkTech.com- Home Page</title>
-<link href="images/log4.png" rel="icon">
+<link href="images/log2.png" rel="icon">
 </head>
 </head>
 <body>
@@ -17,7 +17,7 @@
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/mylandmarklogo.jpg" alt="" width="200">
+		<img src="images/Nfesta Teck logo.jpeg" alt="" width="200">
 	</span>
 	<span style="font-weight: bold;">
 		Nfesta Technology, 
