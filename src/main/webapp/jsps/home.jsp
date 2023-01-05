@@ -8,7 +8,7 @@
 <link href="images/log2.png" rel="icon">
 </head>
 </head>
-<body>
+<body background="homeoffice1.jpg">
 <h1 align="center">Welcome to Nfesta Technologies.</h1>
 <h2 align="center"> We are supporting the Ebay Black Friday Project.
 	Nfesta Technologies is a software development company. 
