@@ -4,16 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MylandmarkTech.com- Home Page</title>
+<title>Mynfesta.com- Home Page</title>
 <link href="images/log2.png" rel="icon">
 </head>
 </head>
 <body background="homeoffice1.jpg">
 <h1 align="center">Welcome to Nfesta Technologies.</h1>
+<h4>You are looking at some beautiful photos taken at the clinton Home office in Maryland</h4>
 <h2 align="center"> We are supporting the Ebay Black Friday Project.
 	Nfesta Technologies is a software development company. 
 	new class of devops Engineer will run from April 15, 2023.
-	Theere is a brighter light at the end ot the tunnel. The Lord's guide IS OUR SUCCESS ACCESS KEY</h2>
+	Theere is a brighter light at the end of the tunnel. The Lord's guide IS OUR SUCCESS PARAMETER</h2>
 <hr>
 <div style="text-align: center;">
 	<span>

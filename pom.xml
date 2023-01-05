@@ -3,13 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application</artifactId>
+	<artifactId>rangeweb-application</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>maven-web-application</name>
+	<name>rangeweb-application</name>
 
-	<description>Maven Web Project for Java Project</description>
+	<description>maven Web Project for Java Project</description>
 
 	<organization>
 		<name>Nfesta Technologies</name>
@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>rangeweb-app</finalName>
 		
 		<plugins>
 			<plugin>
@@ -142,7 +142,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>maven-web-application</wtpContextName>
+					<wtpContextName>rangeweb-application</wtpContextName>
 				</configuration>
 			</plugin>
 			
