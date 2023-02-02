@@ -1,2 +1,2 @@
-FROM tomcat:8.0.20-jre8
+FROM jboss/wildfly
 ADD target/maven-web-app.war /opt/jboss/wildfly/standalone/deployments/
