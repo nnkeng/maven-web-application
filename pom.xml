@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.208.25.103:8081/repository/toyota-Snapshot/</url>
+	      <url>http://44.208.25.103:8081/repository/toyota-ci-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
