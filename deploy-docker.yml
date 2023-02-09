@@ -25,4 +25,4 @@
         image: "nfestatechnologies/dansapp:${DOCKER_TAG}"
         state: Started
         published_ports:
-          - 0.0.0.0:7000:8080
+          - 0.0.0.0:8081:8080
