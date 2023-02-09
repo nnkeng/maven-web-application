@@ -1,0 +1,55 @@
+pipeline{
+    agent any
+    tools {
+      maven 'maven3.8.7'
+    }
+    environment {
+     DOCKER_TAG = getVersion()
+    }
+    stages{
+        stage('codeClone'){
+            steps{
+                git credentialsId: 'GitHubcredentials', 
+                url: 'https://github.com/festusdevops/maven-web-application.git'
+            }
+        }
+        stage('test&build'){
+            steps{
+                sh "mvn clean package"
+            }
+        }
+        stage('CodeQuality'){
+            steps{
+                sh "mvn sonar:sonar"
+            }
+        }
+        stage('UploadArtifacttoNexus'){
+            steps{
+                sh "mvn deploy"
+            }
+        }
+        stage('dockerBuild'){
+            steps{
+                sh "docker build . -t nfestatechnologies/dansapp:${DOCKER_TAG}"
+            }
+        }
+        stage('pushImageToDubD'){
+            steps{
+                withCredentials([string(credentialsId: 'doc-hub', variable: 'userpwd')]) {
+                    sh "docker login -u nfestatechnologies -p ${userpwd}"
+            }
+                
+                sh "docker push nfestatechnologies/dansapp:${DOCKER_TAG}"
+            }
+        }
+        stage('deploytoContainer'){
+            steps{
+                sh "docker run -d -p 3000:8080 --name webapps nfestatechnologies/dansapp:${DOCKER_TAG}"
+            }
+        }
+    }
+}
+def getVersion(){
+    def commitHash = sh returnStdout: true, script: 'git rev-parse --short HEAD'
+    return commitHash
+}
