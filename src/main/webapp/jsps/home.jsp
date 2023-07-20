@@ -42,9 +42,9 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
                 Nfesta Technology, 
 		Clinton, Maryland, United States
 		+1 240 636 8212,
-		festusnkengdevops@gmail.com
+		nfestatech@gmail.com
 		<br>
-		<a href="mailto:festusnkengdevops@gmail.com">Mail to Nfesta Technologies</a>
+		<a href="mailto:nfestatech@gmail.com">Mail to Nfesta Technologies</a>
 	</span>
 </div>
 <hr>
