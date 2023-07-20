@@ -13,7 +13,7 @@
 
 	<organization>
 		<name>Nfesta Technologies</name>
-		<url>http://landmarktechnologies.com/</url>
+		<url>http://Nfestatechnologies.com/</url>
 	</organization>
 
 	<properties>
@@ -96,13 +96,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <name>Nfesta Technologies Releases Nexus Repository</name>
 	      <url>http://107.22.56.2:8081/repository/toyota-Releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
 	      <url>http://107.22.56.2:8081/repository/toyota-ci-snapshot/</url>
 	    </snapshotRepository>
 	    
