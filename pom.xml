@@ -5,15 +5,16 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	
+	<version>0.0.2-SNAPSHOT</version> 
 	
 	<name>maven-web-application</name>
 
-	<description>maven Web Project for Java Project</description>
+	<description>Maven Web Project for Java Project</description>
 
 	<organization>
 		<name>Nfesta Technologies</name>
-		<url>http://Nfestatechnologies.com/</url>
+		<url>http://www.nfestatech.com/</url>
 	</organization>
 
 	<properties>
@@ -23,10 +24,9 @@
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http:54.163.96.186:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>
+		<sonar.password>admin</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 	</properties>
 
 	<dependencies>
@@ -36,7 +36,7 @@
 			<artifactId>json</artifactId>
 			<version>20160212</version>
 		</dependency>
-		   
+		
 		<!-- test dependencies -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -89,10 +89,8 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
-		</dependency>
-		
+		</dependency>	
 	</dependencies>
-	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
@@ -109,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>toyota-web-app</finalName>
+		<finalName>tesla</finalName>
 		
 		<plugins>
 			<plugin>
@@ -142,7 +140,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>rangeweb-application</wtpContextName>
+					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
 			
